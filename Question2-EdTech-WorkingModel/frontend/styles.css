@@ -1,0 +1,10 @@
+body { font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f3f6fb; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.row { display: flex; gap: 8px; }
+.column { display: flex; flex-direction: column; gap: 8px; }
+input, button { padding: 8px; font-size: 14px; }
+button { cursor: pointer; }
+.muted { color: #566; }
+.block { border: 1px solid #dbe4f4; background: #f8fbff; border-radius: 8px; padding: 10px; margin: 8px 0; }
+pre { background: #fafafa; border: 1px solid #eee; padding: 8px; overflow: auto; }

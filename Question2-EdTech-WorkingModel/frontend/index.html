@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EdTech Working Model</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>EdTech Dashboard + Checkout (Working Model)</h1>
+
+    <section class="card">
+      <h2>Dashboard</h2>
+      <div class="row">
+        <input id="learnerId" value="learner-1" />
+        <button id="loadDashboardBtn">Load Dashboard</button>
+      </div>
+      <p id="dashboardMeta" class="muted"></p>
+      <div id="cmsBlocks"></div>
+      <h3>Continue Learning</h3>
+      <pre id="continueLearning"></pre>
+      <h3>Recommendations</h3>
+      <pre id="recommendations"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Checkout</h2>
+      <div class="column">
+        <input id="cartId" value="cart-1" placeholder="cartId" />
+        <input id="paymentMethodToken" value="tok-demo-123" placeholder="paymentMethodToken" />
+        <input id="idempotencyKey" placeholder="idempotencyKey (optional auto-generated)" />
+        <button id="checkoutBtn">Checkout</button>
+      </div>
+      <pre id="checkoutResult"></pre>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

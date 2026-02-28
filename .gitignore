@@ -1,0 +1,43 @@
+# Angular specific
+/dist/
+/out-tsc/
+/tmp/
+/coverage/
+/e2e/test-output/
+/.angular/
+
+# Frontend build artefacts (React/Angular)
+Question1-OrderTracker/frontend/node_modules/
+Question1-OrderTracker/frontend/package-lock.json
+Question1-OrderTracker/frontend/dist/
+
+# Node modules and dependency files
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Environment files
+/.env
+
+# Angular CLI and build artefacts
+/.angular-cli.json
+/.ng/
+
+# Generated JS from TypeScript/TSX (local transpilation output)
+Question1-OrderTracker/frontend/src/**/*.js
+Question1-OrderTracker/frontend/src/**/*.js.map
+
+# Backend build output
+Question1-OrderTracker/backend/**/bin/
+Question1-OrderTracker/backend/**/obj/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.fake
