@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background: #f5f7fb; margin: 0; }
+.container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+section { background: #fff; border-radius: 8px; padding: 1rem; }
+.row { display: flex; gap: 0.5rem; }
+.column { display: flex; flex-direction: column; gap: 0.4rem; }
+input, textarea, select, button { padding: 0.5rem; }
+.error { color: #b00020; }
